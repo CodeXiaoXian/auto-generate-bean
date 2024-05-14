@@ -7,5 +7,6 @@ package com.yufei.kernel;
 public interface YuFeiMapper<T> {
 
     String getSql(T table);
+
     String getById(T table);
 }

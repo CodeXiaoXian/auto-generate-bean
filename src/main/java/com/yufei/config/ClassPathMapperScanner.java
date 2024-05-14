@@ -23,6 +23,7 @@ public class ClassPathMapperScanner extends ClassPathBeanDefinitionScanner {
     public ClassPathMapperScanner(BeanDefinitionRegistry registry) {
         super(registry);
     }
+
     public void registerFilters() {
         // default include filter that accepts all classes
         addIncludeFilter((metadataReader, metadataReaderFactory) -> {

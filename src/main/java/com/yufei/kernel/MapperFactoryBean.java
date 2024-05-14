@@ -18,7 +18,7 @@ public class MapperFactoryBean<T> implements FactoryBean<T> {
         this.mapperInterface = mapperInterface;
     }
 
-    public MapperFactoryBean(){
+    public MapperFactoryBean() {
 
     }
 
